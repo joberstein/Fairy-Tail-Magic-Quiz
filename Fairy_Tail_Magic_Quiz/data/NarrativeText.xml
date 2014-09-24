@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<story>
+  <prompt img="___" end="n">You’re sleeping in your bed soundly. Suddenly, the fire alarm beeps annoyingly and loudly.  What do you do?</prompt>
+  <opt id="1">
+    <decision>Immediately sit up, and head for the door.</decision>
+    <prompt img="___" end="n">When you open the door, you see there is a lot of smoke! But your dog, Elmo, is on the opposite side of the house, and your room is right next to the stairs. How will you proceed?</prompt>
+      <opt id="4">
+        <decision>Rescue Elmo!  Friends don't leave each other behind!</decision>
+        <prompt img="___" end="n">You crawl through the smoke-filled corridors of your house.  After a couple of minutes, you start to feel light-headed.  Do you want to keep looking for Elmo?</prompt>
+          <opt id="6">
+            <decision>Yes, the search must go on!</decision>
+            <prompt img="___" end="n">The heat is getting unbearable.  You cry out for Elmo, and end up breathing in some smoke.  You start coughing, but press onward anyway.  When you find the room where Elmo should be, you 
+             find that he is nowhere to be found. What will you do?</prompt>
+               <opt id="8">
+                 <decision>Search for Elmo in this room.</decision>
+                 <prompt img="___" end="y">Elmo is still nowhere to be found.  You decide to search the closet, since he like to hide in there on occasion.  When you open the closet door, a sign pops out that reads: 'YOU LOSE, SEE YOU IN THE AFTER-LIFE, SUCKER!'</prompt>
+                 <ending>You notice a bomb ticking at the bottom of the closet, and make a run for it, but it explodes, and you die.  Sorry, don't be so altruistic!</ending>
+               </opt>
+               <opt id="9">
+                 <decision>Retrace your steps back to your own room to see if you missed any clues.</decision>
+                 <prompt img="___"  end="y">Crawling back to your room, you see the fire has spread wildly, and you probably won't have any hope of escaping.  You hear a lots of crackling and a thud.</prompt>
+                 <ending>That thud is the last thing you hear.  A burning part of the ceiling falls onto you, killing you on impact. Sorry, don't be so careless!</ending>
+               </opt>
+               <opt id="10">
+                 <decision>Leave, and attempt to escape the house.</decision>
+                 <prompt img="___"  end="n">You successfully exit the house!  Outside, you find Elmo waiting for you.  He runs up to you, and you notice he has a paper in his mouth. The paper reads:</prompt>
+                   <opt id="11">
+                     <decision>'Unfortunately, you have escaped my vengeance this time, but next time, you won't be so lucky.'</decision>
+                     <prompt end="n">You motion for the nearby cop, but it disintegrates before you can show the note to him. What do you say to the cop?</prompt>
+                       <opt id="13">
+                         <decision>'I just had a death threat addressed to me in my hand, but the paper disintegrated. This whole fire was intentional because someone is trying to kill me! You believe me, right!?</decision>
+                         <prompt end="y">The cop stares at you.  He tries to calm you down, and recommends that you get a psychological examination in the near future.  A gunshot is heard.</prompt>
+                         <ending>You've just been shot in the head by a sniper watching the scene from the roof of your neighbor's house.  You tried to incriminate the culprit, and he didn't like that, so he took you
+                         out. Sorry, don't be a snitch!</ending>
+                       </opt>
+                       <opt id="14">
+                         <decision>'So, is my house going to be okay?  What's the damage like, and how did the fire even start?'</decision>
+                         <prompt end="n">The cop responds by telling you that the damage is pretty bad, and that they couldn't identify the origin of the fire. Where do you go now?</prompt>
+                           <opt id="15">
+                             <decision>Your neighbor's house.</decision>
+                             <prompt end="y">You decide to knock on your neighbor's door and ask if you can stay with him for the night, since your house is uninhabitable and all.</prompt>
+                             <ending>While sleeping, someone stabs you in the chest with a knife. Sorry, don't be so trusting!</ending>
+                           </opt>
+                           <opt id="16">
+                             <decision>The grocery store.</decision>
+                             <prompt end="n">You pull out your grocery list from your pocket, and decide to start shopping for the items on the list.  You're pick up a half gallon of milk to put in your cart, but out 
+                             of nowhere, an arrow pierces the container. What do you do?</prompt>
+                               <opt id="17">
+                                 <decision>Cry. Spilled milk is terrible!</decision>
+                                 <prompt end="n">You put the milk back and pay for your groceries. While walking home, you see that Elmo has found you. It seems like he wants to be fed.</prompt>
+                                 <opt id="19">
+                                   <decision>Feed Elmo.</decision>
+                                   <prompt end="y">You drop the groceries to find something Elmo would like. After realizing that you didn't buy any dog food, you decide to give him some of the turkey.</prompt>
+                                   <ending>Blargh ending</ending> ----------------------------------------------------------------
+                                 </opt>
+                                 <opt id="20">
+                                   <decision>Don't feed Elmo. He can wait until later.</decision>
+                                   <prompt end="y">A prompt would go here... IF I HAD ONE!!</prompt>
+                                   <ending>Marf ending</ending> ----------------------------------------------------------------
+                                 </opt>
+                               </opt>
+                               <opt id="18">
+                                 <decision>Throw the carton of milk on the ground and pull out your hand-gun.</decision>
+                                 <prompt end="y">Suddenly, a barrage of arrows fly toward you, but somehow, they all miss. You duck for cover behind a tower of cereal boxes and fire a round of bullets in various directions.
+                                 After not hearing any noise for a while, you try escaping the store by crawling toward the front entrance.</prompt>
+                                 <ending>You make it to the automatic sliding doors without any sight of a murderer!  You knew you were too smart for him! You continue crawling, but midway though the sliding doors, they shut on your body and slice you in half.  Sorry, don't be so violent!</ending>
+                               </opt>
+                           </opt>
+                       </opt>
+                   </opt>
+                   <opt id="12">
+                     <decision>'Grocery List: Eggs, Milk, California Mix Vegetables, Mayonnaise, American Cheese, Turkey, Frozen Tortellini, Hot Dogs, Hot Dog Buns'</decision>
+                     <prompt end="n">You wonder why your grocery list is still intact, and how Elmo got out of the house before you, but put the grocery list in your pocket. Where do you go now?</prompt>
+                       <opt id="19">
+                         <decision>The grocery store.</decision>
+                         <prompt end="y">A prompt would go here... IF I HAD ONE!!</prompt>
+                         <ending>Derpy ending</ending> ----------------------------------------------------------------
+                       </opt>
+                   </opt>
+               </opt>
+           </opt>
+          <opt id="7">
+            <decision>You can't keep looking forever.  Besides, he might be outside of the house already! Elmo has always been a smart dog.</decision>
+            <prompt end="y">You leave the house.</prompt>
+            <ending>Shawty ending</ending>  ----------------------------------------------------------------
+          </opt>
+      </opt>
+      <opt id="5">
+        <decision>Leave Elmo behind; you were always taught to let the fire-fighters get anyone trapped by a fire after you get out safely.</decision>
+        <prompt end="n">You leave the house.</prompt>
+          <opt id="10">
+            <decision>Uhhhh awkward.</decision>
+            <prompt end="y">A prompt would go here... IF I HAD ONE!!</prompt>
+            <ending>Cranky ending</ending> ----------------------------------------------------------------
+          </opt>
+      </opt>
+  </opt>
+  <opt id="2">
+    <decision>Keep sleeping, it’s probably just a false alarm… again.</decision>
+    <prompt end="y">This was actually a real fire. It's silly not to wake up if the fire alarm goes off!</prompt>
+    <ending>You end up dying in the fire.  Sorry, don't be lazy!</ending>
+  </opt>
+  <opt id="3">
+    <decision>Grunt a little bit and slowly trudge toward the door, but trip on a towel you left on your floor in the process.</decision>
+    <prompt end="y">A prompt would go here... IF I HAD ONE!!</prompt>
+    <ending>Blehh ending</ending>  ----------------------------------------------------------------
+  </opt>
+</story>

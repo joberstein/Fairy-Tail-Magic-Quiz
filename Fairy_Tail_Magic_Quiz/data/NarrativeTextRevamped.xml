@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Fire = 1
+Water = 2
+Earth = 3
+Air = 4 
+-->
+<story>
+  <description>Welcome to the, "Which type of bender are you?" game!  Make choices in order to get to an end result. It's super fun, I promise!</description>
+  <prompt img="___" end="n">What kind of colors do you like?</prompt>
+  <opt id="1">
+    <decision>Warm colors</decision>
+    <prompt img="___" end="n">What type of food do you prefer?</prompt>
+      <opt id="1">
+        <prompt img="___" end="n">...</prompt>
+        <decision>Mexican</decision>
+      </opt>
+      <opt id="4">
+        <prompt img="___" end="n">...</prompt>
+        <decision>East Asian</decision>
+      </opt>
+      <opt id="3">
+        <prompt img="___" end="n">...</prompt>
+        <decision>American</decision>
+      </opt>
+  </opt>
+  <opt id="2">
+    <decision>Cool colors</decision>
+    <prompt img="___" end="n">Which season is your favorite?</prompt>
+      <opt id="2">
+        <decision>Winter</decision>
+        <prompt img="___" end="n">What is your battle tactic of choice?</prompt>
+          <opt id="3">
+            <decision>Stand your ground and fight back.</decision>
+            <prompt img="___" end="n">...</prompt>
+          </opt>
+          <opt id="2">
+            <decision>Only defend.</decision>
+            <prompt img="___" end="n">...</prompt>
+          </opt>
+          <opt id="4">
+            <decision>Run away.</decision>
+            <prompt img="___" end="n">...</prompt>
+          </opt>
+      </opt>
+      <opt id="3">
+        <decision>Spring</decision>
+        <prompt img="___" end="n">...</prompt>
+      </opt>
+      <opt id="1">
+        <decision>Summer</decision>
+        <prompt img="___" end="n">...</prompt>
+      </opt>
+  </opt>
+  <opt id="3">
+    <decision>Neutral colors</decision>
+    <prompt end="n">What part of yourself are you most in touch with?</prompt>
+      <opt id="1">
+        <prompt img="___" end="n">What is your favorite animal?</prompt>
+        <decision>Your emotions.</decision>
+          <opt id="3">
+            <prompt img="___" end="n">...</prompt>
+            <decision>Badger</decision>
+          </opt>
+          <opt id="1">
+            <prompt img="___" end="n">...</prompt>
+            <decision>Dragon</decision>
+          </opt>
+          <opt id="4">
+            <prompt img="___" end="n">...</prompt>
+            <decision>Bison</decision>
+          </opt>
+      </opt>
+      <opt id="4">
+        <prompt img="___" end="n">...</prompt>
+        <decision>Your physical strength.</decision>
+      </opt>
+      <opt id="3">
+        <prompt img="___" end="n">...</prompt>
+        <decision>Your spiritual self.</decision>
+      </opt>
+  </opt>
+</story>
